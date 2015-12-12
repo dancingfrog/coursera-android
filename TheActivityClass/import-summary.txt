@@ -41,7 +41,6 @@ Eclipse projects. Here's how the projects were restructured:
 * AndroidManifest.xml => app/src/main/AndroidManifest.xml
 * res/ => app/src/main/res/
 * src/ => app/src/main/java/
-* Test/libs/robotium-solo-5.3.1.jar => app/libs/robotium-solo-5.3.1.jar
 * Test/res/ => app/src/androidTest/res/
 * Test/src/ => app/src/androidTest/java/
 
