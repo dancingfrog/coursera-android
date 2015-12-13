@@ -32,11 +32,11 @@
                 "from": {
                     "file": "/home/revlin/Projects/edu/coursera/android/TheActivityClass/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 333,
+                        "startOffset": 378,
                         "endColumn": 53,
-                        "endOffset": 382
+                        "endOffset": 427
                     }
                 }
             },
@@ -51,11 +51,11 @@
                 "from": {
                     "file": "/home/revlin/Projects/edu/coursera/android/TheActivityClass/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 456,
+                        "startOffset": 501,
                         "endColumn": 48,
-                        "endOffset": 500
+                        "endOffset": 545
                     }
                 }
             },
@@ -64,8 +64,8 @@
                     "startLine": 5,
                     "startColumn": 4,
                     "startOffset": 207,
-                    "endColumn": 56,
-                    "endOffset": 259
+                    "endColumn": 54,
+                    "endOffset": 257
                 },
                 "from": {
                     "file": "/home/revlin/Projects/edu/coursera/android/TheActivityClass/app/src/main/res/values/strings.xml",
@@ -73,8 +73,8 @@
                         "startLine": 4,
                         "startColumn": 4,
                         "startOffset": 105,
-                        "endColumn": 56,
-                        "endOffset": 157
+                        "endColumn": 54,
+                        "endOffset": 155
                     }
                 }
             },
@@ -82,18 +82,18 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 264,
-                    "endColumn": 58,
-                    "endOffset": 318
+                    "startOffset": 262,
+                    "endColumn": 52,
+                    "endOffset": 310
                 },
                 "from": {
                     "file": "/home/revlin/Projects/edu/coursera/android/TheActivityClass/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 274,
-                        "endColumn": 58,
-                        "endOffset": 328
+                        "startOffset": 213,
+                        "endColumn": 52,
+                        "endOffset": 261
                     }
                 }
             },
@@ -101,18 +101,18 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 323,
+                    "startOffset": 315,
                     "endColumn": 56,
-                    "endOffset": 375
+                    "endOffset": 367
                 },
                 "from": {
                     "file": "/home/revlin/Projects/edu/coursera/android/TheActivityClass/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 217,
+                        "startOffset": 321,
                         "endColumn": 56,
-                        "endOffset": 269
+                        "endOffset": 373
                     }
                 }
             },
@@ -120,18 +120,18 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 380,
+                    "startOffset": 372,
                     "endColumn": 54,
-                    "endOffset": 430
+                    "endOffset": 422
                 },
                 "from": {
                     "file": "/home/revlin/Projects/edu/coursera/android/TheActivityClass/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 162,
+                        "startOffset": 266,
                         "endColumn": 54,
-                        "endOffset": 212
+                        "endOffset": 316
                     }
                 }
             },
@@ -139,18 +139,18 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 435,
-                    "endColumn": 68,
-                    "endOffset": 499
+                    "startOffset": 427,
+                    "endColumn": 52,
+                    "endOffset": 475
                 },
                 "from": {
                     "file": "/home/revlin/Projects/edu/coursera/android/TheActivityClass/app/src/main/res/values/strings.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 387,
-                        "endColumn": 68,
-                        "endOffset": 451
+                        "startOffset": 160,
+                        "endColumn": 52,
+                        "endOffset": 208
                     }
                 }
             },
@@ -158,10 +158,29 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 504,
-                    "endLine": 16,
+                    "startOffset": 480,
+                    "endColumn": 68,
+                    "endOffset": 544
+                },
+                "from": {
+                    "file": "/home/revlin/Projects/edu/coursera/android/TheActivityClass/app/src/main/res/values/strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 432,
+                        "endColumn": 68,
+                        "endOffset": 496
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 549,
+                    "endLine": 17,
                     "endColumn": 12,
-                    "endOffset": 790
+                    "endOffset": 835
                 },
                 "from": {
                     "file": "/home/revlin/Projects/edu/coursera/android/TheActivityClass/app/src/main/res/values/styles.xml",
@@ -177,12 +196,12 @@
             },
             {
                 "to": {
-                    "startLine": 17,
+                    "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 795,
-                    "endLine": 19,
+                    "startOffset": 840,
+                    "endLine": 20,
                     "endColumn": 12,
-                    "endOffset": 950
+                    "endOffset": 995
                 },
                 "from": {
                     "file": "/home/revlin/Projects/edu/coursera/android/TheActivityClass/app/src/main/res/values/styles.xml",

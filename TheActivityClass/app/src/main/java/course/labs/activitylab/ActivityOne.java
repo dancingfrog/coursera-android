@@ -27,6 +27,7 @@ public class ActivityOne extends Activity {
 	// mCreate, mRestart, mStart and mResume
 	// to count calls to onCreate(), onRestart(), onStart() and
 	// onResume(). These variables should not be defined as static.
+    private int mCreate, mStart, mPause, mRestart, mResume;
 
 	// You will need to increment these variables' values when their
 	// corresponding lifecycle methods get called.
@@ -34,6 +35,7 @@ public class ActivityOne extends Activity {
 	// TODO: Create variables for each of the TextViews
 	// named mTvCreate, mTvRestart, mTvStart, mTvResume.
 	// for displaying the current count of each counter variable
+    private TextView mTvCreate, mTvStart, mTvPause, mTvRestart, mTvResume;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +45,11 @@ public class ActivityOne extends Activity {
 		// TODO: Assign the appropriate TextViews to the TextView variables
 		// Hint: Access the TextView by calling Activity's findViewById()
 		// textView1 = (TextView) findViewById(R.id.textView1);
+        mTvCreate = (TextView) findViewById(R.id.create);
+        mTvStart = (TextView) findViewById(R.id.start);
+        mTvPause = (TextView) findViewById(R.id.pause);
+        mTvRestart = (TextView) findViewById(R.id.restart);
+        mTvResume = (TextView) findViewById(R.id.resume);
 
 		Button launchActivityTwoButton = (Button) findViewById(R.id.bLaunchActivityTwo);
 		launchActivityTwoButton.setOnClickListener(new OnClickListener() {
@@ -77,6 +84,8 @@ public class ActivityOne extends Activity {
 		// TODO:
 		// Update the appropriate count variable
 		// Update the user interface via the displayCounts() method
+        mCreate++;
+        displayCounts();
 
 	}
 
@@ -92,6 +101,8 @@ public class ActivityOne extends Activity {
 		// TODO:
 		// Update the appropriate count variable
 		// Update the user interface
+        mStart++;
+        displayCounts();
 
 	}
 
@@ -105,6 +116,8 @@ public class ActivityOne extends Activity {
 		// TODO:
 		// Update the appropriate count variable
 		// Update the user interface
+        mResume++;
+        displayCounts();
 
 	}
 
@@ -114,6 +127,8 @@ public class ActivityOne extends Activity {
 
 		// Emit LogCat message
 		Log.i(TAG, "Entered the onPause() method");
+        mPause++;
+
 	}
 
 	@Override
@@ -134,6 +149,8 @@ public class ActivityOne extends Activity {
 		// TODO:
 		// Update the appropriate count variable
 		// Update the user interface
+        mRestart++;
+        displayCounts();
 
 	}
 
@@ -160,11 +177,12 @@ public class ActivityOne extends Activity {
 	public void displayCounts() {
 
 		// TODO - uncomment these lines
-	/*
+
 		mTvCreate.setText("onCreate() calls: " + mCreate);
 		mTvStart.setText("onStart() calls: " + mStart);
+		mTvPause.setText("onPause() calls: " + mPause);
 		mTvResume.setText("onResume() calls: " + mResume);
 		mTvRestart.setText("onRestart() calls: " + mRestart);
-	*/
+
 	}
 }

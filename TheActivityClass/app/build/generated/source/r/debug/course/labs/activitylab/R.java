@@ -14,11 +14,12 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int bClose=0x7f060005;
-        public static final int bLaunchActivityTwo=0x7f060004;
+        public static final int bClose=0x7f060006;
+        public static final int bLaunchActivityTwo=0x7f060005;
         public static final int create=0x7f060000;
-        public static final int restart=0x7f060003;
-        public static final int resume=0x7f060002;
+        public static final int pause=0x7f060002;
+        public static final int restart=0x7f060004;
+        public static final int resume=0x7f060003;
         public static final int start=0x7f060001;
     }
     public static final class layout {
@@ -30,10 +31,11 @@ public final class R {
         public static final int button=0x7f050001;
         public static final int close=0x7f050002;
         public static final int onCreate=0x7f050003;
-        public static final int onRestart=0x7f050004;
-        public static final int onResume=0x7f050005;
-        public static final int onStart=0x7f050006;
-        public static final int title_activity_activity_two=0x7f050007;
+        public static final int onPause=0x7f050004;
+        public static final int onRestart=0x7f050005;
+        public static final int onResume=0x7f050006;
+        public static final int onStart=0x7f050007;
+        public static final int title_activity_activity_two=0x7f050008;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
