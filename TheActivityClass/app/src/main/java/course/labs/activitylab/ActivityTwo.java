@@ -1,6 +1,7 @@
 package course.labs.activitylab;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -60,8 +61,15 @@ public class ActivityTwo extends Activity {
 				// This function closes Activity Two
 				// Hint: use Context's finish() method
 
-				
-			
+                // Launch the Activity using the intent
+                try {
+                    ActivityTwo.this.finish();
+
+                } catch (Exception e) {
+                    // Log any error messages to LogCat using Log.e()
+                    Log.e(TAG, e.toString());
+                }
+
 			}
 		});
 
@@ -71,11 +79,11 @@ public class ActivityTwo extends Activity {
 			// TODO:
 			// Restore value of counters from saved state
 			// Only need 4 lines of code, one for every count variable
-
-
-			
-			
-			
+            mCreate = savedInstanceState.getInt("createActivity");
+            mStart = savedInstanceState.getInt("startActivity");
+            mPause = savedInstanceState.getInt("pauseActivity");
+            mRestart = savedInstanceState.getInt("restartActivity");
+            mResume = savedInstanceState.getInt("resumeActivity");
 			
 		}
 
@@ -167,12 +175,13 @@ public class ActivityTwo extends Activity {
 		// TODO:
 		// Save counter state information with a collection of key-value pairs
 		// 4 lines of code, one for every count variable
+        savedInstanceState.putInt("createActivity", mCreate);
+        savedInstanceState.putInt("startActivity", mStart);
+        savedInstanceState.putInt("pauseActivity", mPause);
+        savedInstanceState.putInt("restartActivity", mRestart);
+        savedInstanceState.putInt("resumeActivity", mResume);
 
-
-
-		
-		
-		
+        super.onSaveInstanceState(savedInstanceState);
 		
 	}
 
