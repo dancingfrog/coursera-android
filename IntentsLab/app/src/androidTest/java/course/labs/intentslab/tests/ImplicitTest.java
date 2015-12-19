@@ -43,16 +43,15 @@ public class ImplicitTest extends
 		
 		// Click on Implicit Activation Button
 		solo.clickOnView(solo
-				.getView(course.labs.intentslab.R.id.implicit_activation_button));
+                .getView(course.labs.intentslab.R.id.implicit_activation_button));
 
-
-		// Wait for activity: 'com.android.internal.app.ChooserActivity'
+        /* Wait for activity: 'com.android.internal.app.ChooserActivity' */
 		assertTrue(
 				"ImplicitTest:" +
 				"Section One:" +
 				"ChooserActivity was not launched correctly",
 				solo.waitForActivity("ChooserActivity",delay));
-		
+
 		solo.sleep(delay);
 		
 		assertTrue(
